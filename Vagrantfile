@@ -9,7 +9,7 @@ VAGRANTFILE_API_VERSION = '2'
    yum install -y yum-utils  
 
    echo ************* Install Dependencies ************* 
-   yum install -y gcc-c++ make fontconfig bzip2 libpng-devel ruby ruby-devel
+   yum install -y gcc-c++ make fontconfig bzip2 libpng-devel ruby ruby-devel nano
 	 gem install sass
 
    echo ************* Install Git ************* 
